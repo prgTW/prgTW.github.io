@@ -7,4 +7,4 @@ version=${VERSION:-"v2"}
 	do
 		cat $file
 	done
-) | aglio -i- -t default-collapsible -o "$version/index.html"
+) | aglio -i- -t default -o "$version/index.html"
